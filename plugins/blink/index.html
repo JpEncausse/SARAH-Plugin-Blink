@@ -1,0 +1,48 @@
+<div id="blink">
+  
+  <div class="row-fluid">
+      <div class="span8">
+          <p>
+            Le module blink permet de piloter la <a href="http://thingm.com/products/blink-1.html">LED USB Blink(1)</a> 
+            (issue d'un <a href="http://www.kickstarter.com/projects/thingm/blink1-the-usb-rgb-led">projet KickStarter</a>) 
+            en envoyant des commandes HTTP au petit logiciel Blink1Control.
+          </p>
+          <iframe width="640" height="360" src="http://www.youtube.com/embed/cs5vGqsTxiY?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+          
+          <h3>API</h3>
+          <p>Voici la liste des paramètres du plugin. Dans tous les cas, un timout de 10s éteint le Blink.</p>
+          <table class='table table-bordered table-striped'>
+            <tr><td>color</td><td>setColor()</td><td>Set a static color</td></tr>
+            <tr><td>blink</td><td>blink()</td><td>Blink a color to black</td></tr>
+            <tr><td>warn</td><td>blink()</td><td>Blink 2 colors (must use 2 parameters)</td></tr>
+            <tr><td>duration</td><td>default: 1000</td><td>Available for blink and warn</td></tr>
+          </table>
+          
+          <h3>Rules</h3>
+          
+<strong>Before:</strong>
+<pre>
+if (options.confidence >= 0.9){
+  SARAH.call('blink', {'color':'00FF00'});
+} 
+else if (options.confidence >= 0.8){
+  SARAH.call('blink', {'color':'0000FF'});
+} 
+else {
+  SARAH.call('blink', {'color':'FF0000'});
+}
+</pre>
+
+<strong>After:</strong>
+<pre>
+setTimeout(function(){ 
+  SARAH.call('blink', {'color':'000000'});
+}, 1000);
+</pre>
+
+          
+      </div>
+      <div class="span4"><img src="/assets/blink/images/blink1.png" align="right" width="100"/></div>
+  </div> 
+  
+</div>

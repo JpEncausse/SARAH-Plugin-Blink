@@ -1,0 +1,10 @@
+.plugin-gridster.blink .photo IMG {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.plugin-gridster.blink FORM INPUT {
+  width: 90%;
+  margin: 0 auto;
+}

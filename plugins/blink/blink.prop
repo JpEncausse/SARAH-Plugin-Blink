@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "blink":     {
+      "description": "Controle le Blink(1) via des requêtes REST sur Blink1 Control",
+      "version"    : "1.0"
+    }
+  }
+}
