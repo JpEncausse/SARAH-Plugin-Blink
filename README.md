@@ -1,3 +1,14 @@
+# [S.A.R.A.H.](http://encausse.net/s-a-r-a-h)
+
+This plugin is an add-on for the framework [S.A.R.A.H.](http://encausse.net/s-a-r-a-h).
+
+[S.A.R.A.H.](http://encausse.net/s-a-r-a-h) is an Home Automation project built 
+on top of:
+* C# (Kinect) client for Voice, Gesture, Face, QRCode recognition. 
+* NodeJS (ExpressJS) server for Internet of Things communication
+
+## License
+
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
@@ -22,14 +33,6 @@
  http://www.wtfpl.net/ for more details.
 ```
 
-# [S.A.R.A.H.](http://encausse.net/s-a-r-a-h)
-
-This plugin is an add-on for the framework [S.A.R.A.H.](http://encausse.net/s-a-r-a-h).
-
-[S.A.R.A.H.](http://encausse.net/s-a-r-a-h) is an Home Automation project built 
-on top of:
-* C# (Kinect) client for Voice, Gesture, Face, QRCode recognition. 
-* NodeJS (ExpressJS) server for Internet of Things communication
 
 ## Description
 
