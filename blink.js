@@ -91,7 +91,7 @@ var logging = function(enable, cb){
 
 var sendBlink = function (path, cb){
 
-  console.log('[Blink] send command: ', path);
+  // console.log('[Blink] send command: ', path);
   
   var url = "http://localhost:8934"+path;
   var request = require('request');
