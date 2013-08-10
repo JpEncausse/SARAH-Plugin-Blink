@@ -2,6 +2,7 @@
   <rule id="ruleBlink" scope="public">
     <example>Sarah clignotement rouge</example>
     <tag>out.action=new Object(); </tag>
+    <item>Sarah</item>
     <one-of>
       
       <item>Laide rouge<tag>out.action.color="ff0000"</tag></item>
